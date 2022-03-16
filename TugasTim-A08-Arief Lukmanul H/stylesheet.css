@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+  }
+
+  /* Banner disini */
+ 
+  body {
+    margin: 0;
+    font-family: "Sans Serif";
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  .main-banner .left-content {
+    padding: 180px 0px 100px 0px;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    text-align: left;
+  
+  }
+
+  .left-content h1 {
+    
+    font: 700 12px Poppins, sans-serif;
+    position: relative;
+    font-weight: 700;
+    line-height: 70px;
+    font-size: 60px;
+    margin-bottom: 20px;
+    opacity: 80%;
+  }
+  
+  .main-banner .text-caption {
+    font: 600 18px Poppins, sans-serif;
+    margin-bottom: 20px;
+    color: #27c499;
+  }
+
+  .left-content {
+    float: left;
+  }
+
+  .gr {
+    font: 600 12px/23px Poppins, sans-serif;
+    color: #fff;
+    padding: 12px 18px;
+    border-radius: 10px;
+    background-color: #27c499;
+    transition: 0.3s;
+  }
+
+  .gr:hover {
+    border: #555b61;
+    border-radius: 2px;
+    opacity: 60%;
+    transition: 0.3s;
+  }
+
+  .wh {
+    font: 400 17px Poppins, sans-serif;
+    border: 1px solid #555b61;
+    color: #555b61;
+    padding: 16px 24px;
+    border-radius: 20px;
+    background-color: transparent;
+    transition: 0.3s;
+    margin-left: 20px;
+  }
+
+  .wh:hover {
+    border: 1px solid #27c499;
+    color: #27c499;
+    transition: 0.3s;
+  }
+
+  .btn {
+    padding: 12px 24px;
+    display: inline-block;
+    position: relative;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+  .btn-wrapper {
+    text-align: left;
+    margin: 20px 0;
+  }
+
+  
+
+  .main-banner .right-content { 
+    padding: 180px 0px 100px 0px;
+    float: right;
+      
+  }
+
